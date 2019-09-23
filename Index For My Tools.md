@@ -8,7 +8,7 @@
 
 - Mark Text (a nice tool i've been using to edit this file)
 
-- Atom (recommended, a comprehensive tool)
+- Atom (recommended, a comprehensive tool, git needed)
 
 ### Handwriting
 
@@ -22,9 +22,11 @@
 
 ### Others
 
-- Notepad (Universal)
+- Notepad (Universal !)
 
 ## Git Control Panel
+
+- Git for Windows (Git GUI, Git Bash)
 
 - Powershell ( git environment needed)
 
@@ -32,13 +34,11 @@
 
 - Atom (also easy for use)
 
-- Git for Windows (Git GUI, Git Bash)
-
 ## Document Container
 
 - Toyhouse Wiki
 
-- Github
+- Github (Remember it's totally open to everyone)
 
 - Onedrive (May Need Subscribe)
 
@@ -48,10 +48,10 @@
 
 ## Publish Process
 
-- LaTeX (MiKTex Using, XeLaTeX often)
-  
+- LaTeX (MiKTex Used, XeLaTeX often)
+
   - TeXworks
-  
+
   - TeXstudio
 
 - Word (Damning Trash)
@@ -59,6 +59,8 @@
 - Adobe Acrobat Pro DC (Nice one but Expensive)
 
 - InDesign (Not Used yet)
+
+- Sketch (Not Used yet)
 
 ## Pic and Video
 
@@ -75,9 +77,9 @@
 ## Coding
 
 - Visual Studio
-  
+
   - C++
-  
+
   - R (Not Studied yet)
 
 - Atom (Quite Nice, other markdown editor too!)
