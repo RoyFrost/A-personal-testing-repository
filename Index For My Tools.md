@@ -56,6 +56,8 @@
 
 - Word (Damning Trash)
 
+- Adobe Acrobat Pro DC (Nice one but Expensive)
+
 - InDesign (Not Used yet)
 
 ## Pic and Video
@@ -105,5 +107,3 @@
 - Discord (Game Community)
 
 - Grammarly (English-written Text Correcting)
-  
-  
