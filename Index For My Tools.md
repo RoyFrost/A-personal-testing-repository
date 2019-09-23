@@ -74,8 +74,7 @@
 
 - Snipaste (Strongly Recommended Screenshot tool !)
 
-## Coding
-
+## Developing
 - Visual Studio
 
   - C++
