@@ -23,6 +23,18 @@
 |引用内容描述=官方编写的Kibana用户手册
 }}
 {{Template:参考文献 书籍
-|书籍作者
+|书籍作者=John Broughton
+|书名=Wikipedia: The Missing Manual
+|版本=First Edition
+|出版商=O’Reilly Media
+|出版年=2008
+|ISBN号=9780596515164
+|起止页码=17-19
+}}
+{{Template:参考文献 网页
+|网站名称=Help:Templates
+|网页链接=https://www.mediawiki.org/wiki/Help:Templates
+|网页链接显示=https://www.mediawiki.org/wiki/Help:Templates
+|引用内容描述=Mediawiki上的关于Template的帮助
 }}
 }}
