@@ -1,0 +1,34 @@
+<noinclude>This is a Common Chapter Template. It wasn't designed too detailed, and if anybody have some advice,please put it forward as soon as possible.
+Designed by [RoyFrost]</noinclude>
+
+<noinclude>Put the cover image of this Chapter here</noinclude>
+[[file:{{{Cover Image}}}|600px|thumb|center|{{{Caption}}}]]
+=Logic Model=
+{{{Logic Model}}}
+<noinclude> Here you can use [Template:Logic Model]</noinclude>
+=Abstract=
+{{{Abstract}}}
+<noinclude>Here a toggle list or a numbered list is suggested</noinclude>
+=Background=
+{{{Background}}}
+=Content=
+==Projects==
+{{{Projects}}}
+==Reflection==
+{{{Reflection}}}
+==Extension==
+{{{Extension}}}
+<noinclude>Put anything interesting, worth talking about, and related to our tactics or patterns</noinclude>
+==Summary==
+{{{Summary}}}
+<noinclude>It should be differed from the abstract</noinclude>
+=Glossary=
+{{{Glossary}}}
+<noinclude>Put some key words here, making them part of the namespace. It would be better if every name here have a page linked to</noinclude>
+=Reference=
+{{{Reference}}}
+<noinclude>Please use Template here like [Template:Reference Book] or else.</noinclude>
+{{Template:版权声明}}
+
+
+<noinclude>Anytime you edit something, please using ~~~~ put an signature at the beginning or ending of the part you worked on. If you don't want to create or modifiy the content but have something to discuss, please put it on the discussing page or put it forward on Github, wechat, Phabricator, etc.</noinclude>
