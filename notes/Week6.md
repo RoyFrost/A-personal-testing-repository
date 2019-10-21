@@ -50,7 +50,8 @@ e.g.
 > A_1,\dots,A_n,\sum_iA_i=\Omega,A_iA_j=\O,\forall i\ne j\\
 > P_1,\dots,P_n,P_i\ge 0\sum_iP_i=1\\
 > N次独立试验\\
-> P((X_1,\dots,X_n)=(k_1,\dots,k_n))=\dbinom{N}{k_1,\dots,k_n}P_1^{k_1}\dots P_n^{k_n},k_i\ge 0,\sum_ik_i\equiv N\\
+> P((X_1,\dots,X_n)=(k_1,\dots,k_n))=\dbinom{N}{k_1,\dots,k_n}P_1^{k_1}\dots P_n^{k_n},k_i\ge 0,\sum_ik_i\equiv N\\
+
 > $$
 
 ###  3. 连续型
@@ -181,14 +182,13 @@ e.g. 二元正态
 >    Y_1=g_1(X_1,\dots,X_m)\\
 >    Y_2=g_2(X_{m+1},\dots X_n)独立
 >    $$
->
-> 2. $$
->    X_1,\dots X_n独立\Rightarrow f(x_1,\dots,x_n)=f_1(x_1)\dots f_n(x_n),(离散，连续)
+>2. $$
+> X_1,\dots X_n独立\Rightarrow f(x_1,\dots,x_n)=f_1(x_1)\dots f_n(x_n),(离散，连续)
 >    $$
->
-> 3. $$
->    若连续(X_1,\dots,X_n),\forall x_i\in\R,pdf\quad f(x_1,\dots,x_n)=g_1(x_1)\dots g_n(x_n),则X_1,\dots,X_n独立
+>    
+>3. $$
+> 若连续(X_1,\dots,X_n),\forall x_i\in\R,pdf\quad f(x_1,\dots,x_n)=g_1(x_1)\dots g_n(x_n),\\则X_1,\dots,X_n独立
 >    $$
->
-> 4. 
+>    
+>4. 
 
