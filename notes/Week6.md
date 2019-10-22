@@ -50,9 +50,7 @@ e.g.
 > A_1,\dots,A_n,\sum_iA_i=\Omega,A_iA_j=\O,\forall i\ne j\\
 > P_1,\dots,P_n,P_i\ge 0\sum_iP_i=1\\
 > N次独立试验\\
-> P((X_1,\dots,X_n)=(k_1,\dots,k_n))=\dbinom{N}{k_1,\dots,k_n}P_1^{k_1}\dots P_n^{k_n},k_i\ge 0,\sum_ik_i\equiv N\\
-
-> $$
+> P((X_1,\dots,X_n)=(k_1,\dots,k_n))=\dbinom{N}{k_1,\dots,k_n}P_1^{k_1}\dots P_n^{k_n},k_i\ge 0,\sum_ik_i\equiv N\\$$
 
 ###  3. 连续型
 
@@ -75,7 +73,7 @@ f(x,y)=
 $$
 e.g. 二元正态$(X,Y)\sim N(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho)$
 $$
-f(x,y)=\frac{1}{2\pi\sigma_1\sigma_2}\frac{1}{\sqrt{1-\rho^2}}\cdot exp\{-\frac{1}{2(1-\rho^2)}[(\frac{x-\mu_1}{\sigma_1})^2-2\rho\frac{x-\mu_1}{\sigma_1}\frac{y-\mu_2}{\sigma_2}+(\frac{y-\mu_2}{\sigma_x})^2\}\\
+f(x,y)=\frac{1}{2\pi\sigma_1\sigma_2}\frac{1}{\sqrt{1-\rho^2}}\cdot exp\{-\frac{1}{2(1-\rho^2)}[(\frac{x-\mu_1}{\sigma_1})^2-2\rho\frac{x-\mu_1}{\sigma_1}\frac{y-\mu_2}{\sigma_2}+(\frac{y-\mu_2}{\sigma_2})^2\}\\
 \forall (x,y)\in\R^2\\
 \overrightarrow{X}=(\frac{x-\mu_1}{\sigma_1},\frac{y-\mu_2}{\sigma_2})^T\\
 B=\frac{1}{1-\rho^2}
