@@ -1,0 +1,36 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/documents/tools/VS/VC/bin/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 11.00.50727.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "E:/documents/work/github/A-personal-testing-repository/C/untitled/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/documents/work/github/A-personal-testing-repository/C/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_56869\fast && 	E:\documents\tools\VS\VC\BIN\nmake.exe -f CMakeFiles\cmTC_56869.dir\build.make /nologo -L                  CMakeFiles\cmTC_56869.dir\build
+Building C object CMakeFiles/cmTC_56869.dir/testCCompiler.c.obj
+	E:\documents\tools\VS\VC\bin\cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\nm6C08.tmp
+testCCompiler.c
+Linking C executable cmTC_56869.exe
+	"E:\documents\tools\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_56869.dir --rc=C:\PROGRA~2\WI3CF2~1\8.0\bin\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\8.0\bin\x86\mt.exe --manifests  -- E:\documents\tools\VS\VC\bin\link.exe /nologo @CMakeFiles\cmTC_56869.dir\objects1.rsp @C:\Users\ADMINI~1\AppData\Local\Temp\nm6D71.tmp
+
+
+
