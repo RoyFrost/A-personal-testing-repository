@@ -35,19 +35,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\documents\tools\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\documents\tools\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\documents\work\github\A-personal-testing-repository\C\5.3
+CMAKE_SOURCE_DIR = C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\5_3.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\5_3.dir\flags.make
 
 CMakeFiles\5_3.dir\main.cpp.obj: CMakeFiles\5_3.dir\flags.make
 CMakeFiles\5_3.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5_3.dir/main.cpp.obj"
-	E:\documents\tools\VS\VC\bin\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\5_3.dir\main.cpp.obj /FdCMakeFiles\5_3.dir\ -c E:\documents\work\github\A-personal-testing-repository\C\5.3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5_3.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\5_3.dir\main.cpp.obj /FdCMakeFiles\5_3.dir\ -c C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\main.cpp
 <<
 
 CMakeFiles\5_3.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5_3.dir/main.cpp.i"
-	E:\documents\tools\VS\VC\bin\cl.exe > CMakeFiles\5_3.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\documents\work\github\A-personal-testing-repository\C\5.3\main.cpp
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe > CMakeFiles\5_3.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\main.cpp
 <<
 
 CMakeFiles\5_3.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5_3.dir/main.cpp.s"
-	E:\documents\tools\VS\VC\bin\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\5_3.dir\main.cpp.s /c E:\documents\work\github\A-personal-testing-repository\C\5.3\main.cpp
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\5_3.dir\main.cpp.s /c C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\main.cpp
 <<
 
 # Object files for target 5_3
@@ -87,9 +87,9 @@ CMakeFiles\5_3.dir\main.cpp.s: cmake_force
 5_3.exe: CMakeFiles\5_3.dir\main.cpp.obj
 5_3.exe: CMakeFiles\5_3.dir\build.make
 5_3.exe: CMakeFiles\5_3.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5_3.exe"
-	"E:\documents\tools\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\5_3.dir --rc=C:\PROGRA~2\WI3CF2~1\8.0\bin\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\8.0\bin\x86\mt.exe --manifests  -- E:\documents\tools\VS\VC\bin\link.exe /nologo @CMakeFiles\5_3.dir\objects1.rsp @<<
- /out:5_3.exe /implib:5_3.lib /pdb:E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug\5_3.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5_3.exe"
+	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\5_3.dir --rc=C:\PROGRA~2\WI3CF2~1\8.0\bin\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\8.0\bin\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\5_3.dir\objects1.rsp @<<
+ /out:5_3.exe /implib:5_3.lib /pdb:C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug\5_3.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles\5_3.dir\clean:
 .PHONY : CMakeFiles\5_3.dir\clean
 
 CMakeFiles\5_3.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" E:\documents\work\github\A-personal-testing-repository\C\5.3 E:\documents\work\github\A-personal-testing-repository\C\5.3 E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug E:\documents\work\github\A-personal-testing-repository\C\5.3\cmake-build-debug\CMakeFiles\5_3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3 C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3 C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug C:\Users\RoyFrost\Documents\GitHub\A-personal-testing-repository\C\5.3\cmake-build-debug\CMakeFiles\5_3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\5_3.dir\depend
 
