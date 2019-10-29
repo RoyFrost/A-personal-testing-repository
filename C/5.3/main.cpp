@@ -7,6 +7,6 @@ int main(){
     char string1[100];
     gets_s(string1);
     printf("%s\n",string1);
-    printf("%s %s\n",string1,string1);
+    printf("%s\n",string1[1,13]);
     return 0;
 }
