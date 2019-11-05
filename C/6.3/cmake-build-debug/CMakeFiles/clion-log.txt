@@ -1,0 +1,18 @@
+"E:\documents\tools\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\documents\work\github\A-personal-testing-repository\C\6.3
+-- The C compiler identification is MSVC 17.0.50727.1
+-- The CXX compiler identification is MSVC 17.0.50727.1
+-- Check for working C compiler: E:/documents/tools/VS/VC/bin/cl.exe
+-- Check for working C compiler: E:/documents/tools/VS/VC/bin/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: E:/documents/tools/VS/VC/bin/cl.exe
+-- Check for working CXX compiler: E:/documents/tools/VS/VC/bin/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/documents/work/github/A-personal-testing-repository/C/6.3/cmake-build-debug
