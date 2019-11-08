@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 C:/Users/RoyFrost/Documents/GitHub/A-personal-testing-repository/C/5.3/main.cpp
-stdio.h
-C:/Users/RoyFrost/Documents/GitHub/A-personal-testing-repository/C/5.3/stdio.h
-string.h
-C:/Users/RoyFrost/Documents/GitHub/A-personal-testing-repository/C/5.3/string.h
+cstdio
+-
+cstring
+-
 

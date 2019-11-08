@@ -3,10 +3,39 @@
 |日期=2019年10月28日
 |报告主题=计算机架构的搭建及第三章逻辑模型的分析
 |关键词=机器语言、架构、时序逻辑
-|摘要=课上同学讲述了机器语言以及Hack Computer的基本架构。我自己课下完成了project4和project5的内容，并且对上学期出版物第三章的逻辑模型进行了简要分析，以为编写内容进行准备。
+|摘要=对机器语言及电脑架构设计进行了思考和讨论，对时序逻辑章节的逻辑模型进行了分析。
 |课程回顾=
 #在课上同学讲述了机器语言的基本结构，并且详细分析了Hack Computer的架构。在分析的时候，从局部到整体的方法使整个结构更加易于理解。
+#课后完成了project4和project5，并且阅读了前一学期的最终出版物中的逻辑模型。
 |课程思考=
 #其实我自己在做project4和project5的时候，一个直观的感觉是这是我们硬件层面最后的输出，也是软件层面最初的输入。在硬件这一层面，从第一章的逻辑门做起的时候，其实有一种只是被任务驱动的感觉，让人并不清楚自己做的这些东西以后会有什么用。比如我们做了这么多逻辑门，但为什么我们不做更多的呢？而在实现最终硬件架构的时候，才会有一种恍然大悟的感觉，原来一切都那么完备地结合在一起。
-#其实应该像撰写逻辑模型一样，我们是要在输入之前先确定输出是什么的。我们需要这样的计算机架构，所以我们需要这样的ALU和Register。ALU的实现需要很多逻辑门，需要实现组合逻辑；Register的实现则需要有时间（事件先后次序），需要实现时序逻辑。
+#其实应该像撰写逻辑模型一样，我们是要在输入之前先确定输出是什么的。我们需要这样的计算机架构，所以我们需要这样的ALU和Register。ALU的实现需要很多逻辑门，需要实现组合逻辑；Register的实现则需要有时间（事件先后次序），需要实现时序逻辑。在这样的条件下，我们就会先去思考，一个合格的ALU需要有哪些基本的要素，一个Register应该实现怎样的功能。并且我们预先确定了我们要做的是十六位的计算，于是我们大致确定了机器语言的结构，即大致确定了一个instruction的结构。这样再做下去，我们就大致知道了我们的ALU的输入输出参数究竟有几个。在这些参数的组合下，我们便可以去思考基本的运算需要哪一些。必须要注意的是，这些思考的部分应该建立在充足的数学理论基础上。就像我们讨论为什么Nand是最基础的逻辑门时，首先我们可以利用纯数学的布尔代数来证明不管多复杂的关系式，最终都可以化为与非门的组合形式。
+#让我们先来看一下2019春时序逻辑章节的逻辑模型
+{{Template:GIS Logic Model
+|context=We have grasped the basic concepts and methods of combinational logic in the first 2 chapters.
+|goal=Hardware expansion in time dimension
+Storage function
+Control function
+Increase computational thinking
+|effects=Understand the role and significance of DFF, the fundamental chip of sequential logic
+Implement storage chips— Register, Memory
+Implement control chips— Counter
+Summarize the basic paradigm of establishing simple sequential chips
+|outputs=Register
+Memory
+Counter
+|process=Clarify the characteristics and differences between sequential logic and combinational logic
+Understand the concept of Clock and time
+A preliminary understanding of Turing completeness
+Implement Register, Memory and Counter based on DFF, summarize the basic paradigm of establishing simple sequential chips
+|inputs=Understand the role and significance of DFF, the fundamental chip of sequential logic
+Implement storage chips— Register, Memory
+Implement control chips— Counter
+Summarize the basic paradigm of establishing simple sequential chips
+|ef=
+}}
+##首先注意这个逻辑模型的背景。我们确实掌握了组合逻辑的内容，然后呢？这个背景与我们要输出的内容的检验标准基本不相关。我们在一个怎样的背景下需要时序逻辑？因为现实中的许多问题的解决是需要事件次序的，前一事件的结果往往会影响后续事件的进展。这就意味着我们不可能用简单的可以直接用一个简单的数学算式就能描述的电路去处理一个复杂的有时序逻辑的问题。在这样的问题驱动的背景下，我们必须在时间维度（事件次序）上进行设计。
+##所以目标是什么呢？目标就应该是我们的硬件结构需要能够处理具有时序逻辑的问题。其实有了时间就有了存储这种功能。存储功能，究其根本，就是在时间维度上的维持或改变。控制，则只是组合逻辑中已有的选择门再加了一个存储单元罢了。所以这些功能，在从下往上看的时候，实际上都是因为多了一个DFF罢了。
+##*基于我们一直在考虑的通用性这个概念，这本书的每一个章节都应该是可以独立做起的。我们所谓的输入输出的连贯性，不过是针对这个nand2tetris的课程体系。而对于我们要实现的计算思维的提升，其实是不适于写入同一个逻辑模型的。
+##检验标准和输出其实应该来源于更上层架构的需要。在这里，我们既然已经知道存储、控制的必要性（或者更进一步说充分必要性），所以这就非常明确了。
 }}

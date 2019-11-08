@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "string.h"
+#include <cstdio>
+#include <cstring>
 char string1[100];
 bool check(char s){
     return ((s <= 'z') && (s >= 'a')) || ((s <= 'Z') && (s >= 'A'));
