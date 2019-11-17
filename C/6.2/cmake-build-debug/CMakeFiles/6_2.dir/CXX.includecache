@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/RoyFrost/Documents/GitHub/A-personal-testing-repository/C/6.2/main.cpp
+stdio.h
+-
+stdlib.h
+-
+string
+-
+
