@@ -1,0 +1,3 @@
+E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug/CMakeFiles/2019_11_19_interest.dir
+E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

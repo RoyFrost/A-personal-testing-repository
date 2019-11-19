@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="2019_11_19_interest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2019_11_19_interest">
+				<Option output="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug/2019_11_19_interest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:\documents\tools\VS\VC\INCLUDE"/>
+					<Add directory="E:\documents\tools\VS\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.0\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.0\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.0\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 2019_11_19_interest"/>
+					<CompileFile command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2019_11_19_interest/fast">
+				<Option output="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug/2019_11_19_interest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:\documents\tools\VS\VC\INCLUDE"/>
+					<Add directory="E:\documents\tools\VS\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.0\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.0\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.0\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 2019_11_19_interest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\documents\work\github\A-personal-testing-repository\C\2019-11-19-interest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/main.cpp">
+			<Option target="2019_11_19_interest"/>
+		</Unit>
+		<Unit filename="E:/documents/work/github/A-personal-testing-repository/C/2019-11-19-interest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
