@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/RoyFrost/Documents/GitHub/A-personal-testing-repository/C/practice/main.cpp
+stdio.h
+-
+stdlib.h
+-
+
